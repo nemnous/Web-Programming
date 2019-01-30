@@ -1,7 +1,8 @@
 
-<div *ngFor = "let x of nums" >
-  <div *ngFor = "let y of nums" style="display: inline-block;">
-    <button id = x mat-button value = false onclick = "clicked(this)">Click me!</button>
+<div *ngFor = "let x of nums;" >
+  <div *ngFor = "let y of nums;" style="display: inline-block;">
+    <button [id] ="x+''+y"  mat-button value = false ng-click="clicked">{{x*3+y -3}}</button>
   </div>
   <br>
 </div>
+4

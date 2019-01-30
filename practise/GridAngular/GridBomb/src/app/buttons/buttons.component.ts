@@ -6,9 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./buttons.component.css']
 })
 export class ButtonsComponent {
-  nums = [];  
-  constructor() { 
-    this.nums = Array(3).fill(4);
+  nums = [1,2,3];
+  k = 0;
+  clicked() {
+    window.alert("nani");
   }
-  
+  constructor() { 
+  }  
 }

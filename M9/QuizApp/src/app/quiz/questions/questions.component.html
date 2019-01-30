@@ -1,0 +1,12 @@
+<!-- <app-hint></app-hint> -->
+<app-hint [hints]="quest.hint"></app-hint>
+
+<div *ngFor="let option of quest.options">
+  <input type="radio" [name]="quest.question" [value]="option" (click)="evaluate(option)" [disabled]="status">{{option}}
+</div>
+<div *ngIf = "right">
+  Correct
+</div>
+<div *ngIf = "wrong">
+  Wrong
+</div> 

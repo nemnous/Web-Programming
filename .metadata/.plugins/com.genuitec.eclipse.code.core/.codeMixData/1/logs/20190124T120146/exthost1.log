@@ -1,0 +1,48 @@
+[2019-01-24 12:03:04.228] [exthost1] [info] extension host started
+[2019-01-24 12:03:04.301] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-01-24 12:03:04.302] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\debug-auto-launch\out\extension
+[2019-01-24 12:03:04.335] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-01-24 12:03:04.336] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\emmet\dist\extension
+[2019-01-24 12:03:04.489] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-01-24 12:03:04.489] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\merge-conflict\out\extension
+[2019-01-24 12:03:04.558] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2019-01-24 12:03:04.558] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\search-rg\out\extension
+[2019-01-24 12:03:04.592] [exthost1] [info] eager extensions activated
+[2019-01-24 12:03:04.598] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-01-24 12:03:04.598] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\configuration-editing\out\extension
+[2019-01-24 12:03:04.640] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-01-24 12:03:04.640] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\json-language-features\client\dist\jsonMain
+[2019-01-24 12:03:04.986] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-01-24 12:03:04.986] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\typescript-language-features\dist\extension
+[2019-01-24 12:03:11.901] [exthost1] [info] ExtensionService#_doActivateExtension vscode.grunt {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2019-01-24 12:03:11.901] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\grunt\out\main
+[2019-01-24 12:03:11.918] [exthost1] [info] ExtensionService#_doActivateExtension vscode.gulp {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2019-01-24 12:03:11.918] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\gulp\out\main
+[2019-01-24 12:03:11.932] [exthost1] [info] ExtensionService#_doActivateExtension vscode.jake {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2019-01-24 12:03:11.932] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\jake\out\main
+[2019-01-24 12:03:11.946] [exthost1] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2019-01-24 12:03:11.946] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\npm\out\main
+[2019-01-24 12:03:13.450] [exthost1] [info] extension host started
+[2019-01-24 12:03:13.486] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-01-24 12:03:13.486] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\debug-auto-launch\out\extension
+[2019-01-24 12:03:13.505] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-01-24 12:03:13.505] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\emmet\dist\extension
+[2019-01-24 12:03:13.575] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-01-24 12:03:13.575] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\merge-conflict\out\extension
+[2019-01-24 12:03:13.606] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2019-01-24 12:03:13.606] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\search-rg\out\extension
+[2019-01-24 12:03:13.621] [exthost1] [info] eager extensions activated
+[2019-01-24 12:03:13.621] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-01-24 12:03:13.621] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\configuration-editing\out\extension
+[2019-01-24 12:03:13.640] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-01-24 12:03:13.640] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\json-language-features\client\dist\jsonMain
+[2019-01-24 12:03:13.985] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-01-24 12:03:13.985] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\typescript-language-features\dist\extension
+[2019-01-24 12:03:14.211] [exthost1] [info] ExtensionService#_doActivateExtension vscode.grunt {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2019-01-24 12:03:14.211] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\grunt\out\main
+[2019-01-24 12:03:14.225] [exthost1] [info] ExtensionService#_doActivateExtension vscode.gulp {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2019-01-24 12:03:14.225] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\gulp\out\main
+[2019-01-24 12:03:14.233] [exthost1] [info] ExtensionService#_doActivateExtension vscode.jake {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2019-01-24 12:03:14.233] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\jake\out\main
+[2019-01-24 12:03:14.246] [exthost1] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onCommand:workbench.action.tasks.runTask"}
+[2019-01-24 12:03:14.246] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\HP\.codemix\engine\resources\app\extensions\npm\out\main

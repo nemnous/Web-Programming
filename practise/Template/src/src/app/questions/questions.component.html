@@ -1,0 +1,18 @@
+<!-- <h2>{{questions.question}} </h2>
+<ul>
+	<li> {{questions.option1}} </li>
+	<li> {{questions.option2}} </li>
+</ul> -->
+
+
+<h4 class="questions" *ngFor="let quest of questions; index as i">
+    <h4> {{quest.question}} </h4>
+    <app-hint [ind] = i [h] = quest.hints> </app-hint>
+    <br>
+
+    <input type="radio" name="answer" [id]=i (click)="onSelect(quest.option1,i)">{{quest.option1}}<br>
+	<input type="radio" name="answer" [id]=i (click)="onSelect(quest.option2,i)">{{quest.option2}}<br>
+	<div [class]="this.flag[i]"><p>
+	{{quest.feedback[this.flag2[i]]}}</p></div>
+
+</h4>

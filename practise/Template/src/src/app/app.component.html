@@ -1,0 +1,63 @@
+
+<html>
+<head>
+
+<style>
+p {
+  font:sans-serif; text-align: left; font-size: 20px;
+}
+.dotted {
+  border: 1px dotted black;
+}
+.right {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-left: 20px solid darkblue;
+
+    }
+    .left {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-left: 20px solid white;
+    }
+
+
+</style>
+
+
+</head>
+<body>
+
+    <div style = "border: 5px solid darkblue ;">
+      <div style="text-align: right;height:40px;display: flex ;">
+    <div style="background-color: darkblue;width:50px">
+
+    </div>
+    <div class="right">
+    </div>
+    <div style="font-size: 16px;width: 200px;background-color: white;margin-right: 10px ">
+      <p> learn by doing</p>
+    </div>
+    <div class="left" style="background-color: darkblue">
+    </div>
+    <div style="background-color: darkblue;width:100%">
+
+    </div>
+
+      </div>
+    <div style = "border: 25px solid lightblue ;">
+
+
+      <h1>{{title}}</h1>
+      <app-questions> </app-questions>
+
+
+
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<button (click)="unhide()">
+  Show
+</button>
+<button (click)="hide()">Hide</button>
+<button *ngIf="id<hints.length-1 && showHide" (click) = "id=id+1">Next</button>
+<button *ngIf="id>0" (click) = "id=id-1">Prev</button>
+<div *ngIf="showHide">
+  {{hints[id]}}
+</div>

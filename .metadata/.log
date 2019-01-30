@@ -1,0 +1,1088 @@
+!SESSION 2019-01-24 11:59:26.665 -----------------------------------------------
+eclipse.buildId=18.0.0.CI-AI
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product com.genuitec.eclipse.code.angularide.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.genuitec.eclipse.code.angularide.product
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-01-24 12:00:28.433
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY org.eclipse.ui 2 0 2019-01-24 12:00:32.307
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-01-24 12:00:32.307
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-01-24 12:00:35.322
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-01-24 12:00:35.367
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:00:47.147
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:00:47.150
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:00:47.176
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:00:47.181
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-24 12:00:58.924
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:02.913
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:02.917
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-01-24 12:01:03.186
+!MESSAGE CodeMix Engine needs to be installed; new installation
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:04.526
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:04.527
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-01-24 12:01:05.913
+!MESSAGE Server ‘com.genuitec.eclipse.code.ui’ failed with exception: Proxy Authentication Required. ; version: 2.0.7.v20180504-0806
+!STACK 0
+org.apache.http.client.HttpResponseException: Proxy Authentication Required
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-01-24 12:01:05.916
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Proxy Authentication Required. ; version: 2.0.7.v20180504-0806
+!STACK 0
+org.apache.http.client.HttpResponseException: Proxy Authentication Required
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-01-24 12:01:18.161
+!MESSAGE Initializing CodeMix Engine's settings file at F:\PROGRAMMING\Web-Programming\.metadata\codemix.code-workspace
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:28.340
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:28.342
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:28.357
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:28.359
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:01:28.361
+!MESSAGE Server returned HTTP response code: 407 for URL: http://www.genuitec.com/products/angular-ide/wizard-codemix
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 407 for URL: http://www.genuitec.com/products/angular-ide/wizard-codemix
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at com.genuitec.eclipse.code.common.core.versions.DefaultVersionsFetcher.getDefaultVersionsFromServer(DefaultVersionsFetcher.java:91)
+	at com.genuitec.eclipse.code.common.core.versions.DefaultVersionsFetcher.obtainDefaultVersions(DefaultVersionsFetcher.java:84)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:81)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:28.760
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:28.761
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:28.763
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:28.764
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:28.765
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:28.767
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:01:28.784
+!MESSAGE Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+!STACK 0
+java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+	at sun.net.www.protocol.http.HttpURLConnection.doTunneling(HttpURLConnection.java:2142)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:01:28.790
+!MESSAGE Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+!STACK 0
+java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+	at sun.net.www.protocol.http.HttpURLConnection.doTunneling(HttpURLConnection.java:2142)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:01:28.791
+!MESSAGE Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+!STACK 0
+java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+	at sun.net.www.protocol.http.HttpURLConnection.doTunneling(HttpURLConnection.java:2142)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:29.060
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:01:29.062
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:01:29.063
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:01:29.065
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:01:29.096
+!MESSAGE Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+!STACK 0
+java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+	at sun.net.www.protocol.http.HttpURLConnection.doTunneling(HttpURLConnection.java:2142)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:01:29.099
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-01-24 12:01:33.284
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:02:02.923
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:02:02.924
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:02:02.939
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:02:02.941
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.core 4 0 2019-01-24 12:02:02.943
+!MESSAGE Unexpected status code [407] checking for updates
+!STACK 0
+java.io.IOException: Unexpected status code [407] checking for updates
+	at com.genuitec.eclipse.code.core.extensions.ExtensionsService.downloadExtensionsManifest(ExtensionsService.java:463)
+	at com.genuitec.eclipse.code.core.extensions.ExtensionsService.access$4(ExtensionsService.java:401)
+	at com.genuitec.eclipse.code.core.extensions.ExtensionsService$1.run(ExtensionsService.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:02:03.121
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:02:03.122
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:03:51.526
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:03:51.527
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:03:51.528
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:03:51.529
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:03:51.529
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:03:51.530
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:03:51.540
+!MESSAGE Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+!STACK 0
+java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+	at sun.net.www.protocol.http.HttpURLConnection.doTunneling(HttpURLConnection.java:2142)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:03:51.542
+!MESSAGE Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+!STACK 0
+java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+	at sun.net.www.protocol.http.HttpURLConnection.doTunneling(HttpURLConnection.java:2142)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:03:51.543
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:03:51.544
+!MESSAGE Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+!STACK 0
+java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+	at sun.net.www.protocol.http.HttpURLConnection.doTunneling(HttpURLConnection.java:2142)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:03:51.545
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:03:51.547
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:03:51.548
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:03:51.559
+!MESSAGE Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+!STACK 0
+java.io.IOException: Unable to tunnel through proxy. Proxy returns "HTTP/1.0 407 Proxy Authentication Required"
+	at sun.net.www.protocol.http.HttpURLConnection.doTunneling(HttpURLConnection.java:2142)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:03:51.561
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:05:24.704
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:05:24.705
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:05:24.705
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:05:24.706
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:05:24.707
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:05:24.708
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:05:45.710
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:05:45.712
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:05:45.715
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:05:45.717
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:05:45.719
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:05:45.720
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:05:45.723
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:06:02.898
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:06:02.899
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:06:02.900
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:06:02.901
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:06:02.902
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:06:02.903
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:06:06.728
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:06:06.732
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:06:23.905
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:06:23.908
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:06:23.911
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:06:23.913
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:06:23.914
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:06:23.916
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:06:23.919
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:06:44.925
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:06:44.928
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:07:05.159
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:07:05.159
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:07:05.160
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:07:05.161
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:07:05.163
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:07:05.164
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:07:26.166
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:07:26.169
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:07:26.171
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:07:26.173
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:07:26.175
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:07:26.179
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:07:26.181
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:07:47.186
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:07:47.190
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:09:27.872
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:09:27.873
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:09:27.873
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:09:27.874
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:09:27.875
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:09:27.875
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:09:48.878
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:09:48.879
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:09:48.880
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:09:48.881
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:09:48.882
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:09:48.883
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:09:48.883
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.common.core 4 0 2019-01-24 12:10:09.887
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:515)
+	at sun.net.www.http.HttpClient$1.run(HttpClient.java:513)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(HttpClient.java:512)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:553)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainVersions(VersionsObtainJob.java:85)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-24 12:10:09.890
+!MESSAGE An internal error occurred during: "Obtain Angular CLI versions".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.obtainCachedVersions(VersionsObtainJob.java:130)
+	at com.genuitec.eclipse.code.common.core.versions.VersionsObtainJob.run(VersionsObtainJob.java:67)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:20:58.588
+!MESSAGE System property https.proxyHost is set to 10.10.10.3 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-24 12:20:58.588
+!MESSAGE System property https.proxyPort is set to 3128 but should not be set.

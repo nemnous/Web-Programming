@@ -1,0 +1,12 @@
+<div *ngFor = "let question of questionArr,  index as i">
+  <div>
+    <span> {{i + 1}} :</span>
+    {{question.ques}}
+  </div>
+  <div>    
+    <form>
+        <input type="radio" (click) ="optclick(i, question.opt1)" name= {{i}}> {{question.op1}}<br>
+        <!-- <input type="radio" (click)="optclick({{i}}, {{question.opt2}})" name= {{i}}> {{question.op2}}<br> -->
+    </form>
+  </div>
+</div>

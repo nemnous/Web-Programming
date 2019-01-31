@@ -38,6 +38,7 @@ function gridfunc() {
       alert("Enter Name");
       return;
     }
+    document.getElementById("playbtn").disabled = true;
     var bomb = Math.floor((Math.random() * (10 - 1)) + 1);
     
     var k = 1;
@@ -59,11 +60,15 @@ function gridfunc() {
 var count = 3;
 var score = 0;
 function clicky(that) {
+  that.disabled = true;
+
   if(count == 0) {
     count = 3;
     alert("Game Over");
     document.getElementById("dash").innerHTML += "<p>" + first + " " + last + " SCORED: 0";
     document.getElementById("game").innerHTML = "";
+    document.getElementById("playbtn").disabled = false;
+
     return;
   }
   if(that.value == 1) {
@@ -71,6 +76,7 @@ function clicky(that) {
     count = 3
     document.getElementById("dash").innerHTML += "<p>" + first + " " + last + " SCORED: 30";
     document.getElementById("game").innerHTML = "";
+    document.getElementById("playbtn").disabled = false;
 
 
   } else {
@@ -86,7 +92,7 @@ function clicky(that) {
 <div class="container-fluid">
   <h1 style="text-align: center;"><b>Grid Bomb</b></h1>
   <div class="row">
-    <div class="col-sm-6" style="background-color:lavender;">
+    <div class="col-sm-12" style="background-color:lavender;">
       <div id = "login">
       <form id="com" name = "nameform">
         <label for="name">First Name:</label>
@@ -97,7 +103,7 @@ function clicky(that) {
         <p>*Required Field</p>
       </form>
       <div id = Butt align="center">
-        <button type="button" class="btn btn-primary" onclick= "gridfunc()">Click to Play</button>
+        <button id ="playbtn" type="button" class="btn btn-primary" onclick= "gridfunc()">Click to Play</button>
       </div>
       </div>
       <div id = "game" align="center">
@@ -105,7 +111,7 @@ function clicky(that) {
       </div>
 
     </div>
-    <div class="col-sm-6" style="background-color:lavenderblush;">
+    <div class="col-sm-0" style="background-color:lavenderblush;">
       <div id = "score">
       </div>
       <h3 style="text-align: center;"><b>DashBoard</b></h3>

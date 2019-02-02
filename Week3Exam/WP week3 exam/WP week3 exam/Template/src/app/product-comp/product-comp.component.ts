@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ProductsInfoService} from '../products-info.service';
 import {productCls} from './productCls';
-import {products} from './productArray';
+// import {products} from './productArray';
 
 @Component({
   selector: 'app-product-comp',
@@ -15,10 +15,18 @@ export class ProductCompComponent implements OnInit {
   buttId :number;
   descript : any;
   text : string;
+  name: string;
+  quantity : string;
   edit(event : MouseEvent) {
     this.buttId = event.path[0].id;
+    this.name = (<HTMLTextAreaElement>document.getElementById("name"+this.buttId)).value;
+    this.quantity = (<HTMLTextAreaElement>document.getElementById("quantity"+this.buttId)).value;
     this.text = (<HTMLTextAreaElement>document.getElementById("txt"+this.buttId)).value;
+    (<HTMLTextAreaElement>document.getElementById("quantity"+this.buttId)).value = "";
+    (<HTMLTextAreaElement>document.getElementById("name"+this.buttId)).value = "";
     (<HTMLTextAreaElement>document.getElementById("txt"+this.buttId)).value = "";
+    this.ProductsServiceObj.productArr[this.buttId].title = this.name;
+    this.ProductsServiceObj.productArr[this.buttId].quantity = this.quantity;
     this.ProductsServiceObj.productArr[this.buttId].description = this.text;    
     console.log(this.text);
   }

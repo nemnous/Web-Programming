@@ -36,6 +36,8 @@
       </div>
     </div>
     <div id = '"divId"{{i}}'>
+      <textarea id = "name{{i}}" rows="1" cols="50" placeholder="Product Name"></textarea><br>
+      <textarea id = "quantity{{i}}" rows="1" cols="50" placeholder="Product Quantity"></textarea><br>
       <textarea id = "txt{{i}}" rows="4" cols="50" placeholder="Enter Product Description to Modify"></textarea>
       <button  id = '{{i}}' type = "button"  (click) = 'edit($event)' >EDIT</button>
       <button id = '{{i}}' type = "button" (click) =  'delete($event)'>Del</button>

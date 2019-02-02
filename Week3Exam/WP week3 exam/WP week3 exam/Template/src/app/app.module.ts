@@ -5,6 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductCompComponent } from './product-comp/product-comp.component';
 
+import { HttpClient } from '@angular/common/http'; 
+// import { Observable } from 'rxjs/Observable';
+
+import { Observable, of } from 'rxjs';
+
 @NgModule({
   declarations: [
     AppComponent,

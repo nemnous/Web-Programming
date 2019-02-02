@@ -1,12 +1,10 @@
-<div *ngFor = "let question of questionArr,  index as i">
+<div *ngFor = "let question of questionArr,  index as i" style="border-style: solid;padding: 20px">
   <div>
     <span> {{i + 1}} :</span>
     {{question.ques}}
   </div>
-  <div>    
-    <form>
-        <input type="radio" (click) ="optclick(i, question.opt1)" name= {{i}}> {{question.op1}}<br>
-        <!-- <input type="radio" (click)="optclick({{i}}, {{question.opt2}})" name= {{i}}> {{question.op2}}<br> -->
-    </form>
+  <div>
+        <input id = {{i}}1 type="radio" (disabled)= false (click) ="optclick(i, 1)"  name= {{i}}> {{question.op1}}<br>
+        <input id = {{i}}2 type="radio" (disabled) = false (click)="optclick(i, 2)" name= {{i}}> {{question.op2}}<br>
   </div>
 </div>

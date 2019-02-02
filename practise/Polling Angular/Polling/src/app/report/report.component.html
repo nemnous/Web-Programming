@@ -1,0 +1,7 @@
+<div align = "center" *ngFor = "let report of ques; index as i" style="border-style: solid;padding: 7px">
+  <h4>Question {{"  "}} {{i + 1}}</h4>
+  <ol>
+    <li>{{report.op1Count}} </li>
+    <li>{{report.op2Count}} </li>
+  </ol>
+</div>

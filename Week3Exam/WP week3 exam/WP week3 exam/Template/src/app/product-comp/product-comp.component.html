@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class="container-fluid">
+  <div *ngFor = "let prod of productArr; index as i" style="border-style: solid;">
+    <div class="row content">
+      <div class="col-sm-6">
+        <h4>{{prod.title}}</h4>
+      </div>
+
+      <div class="col-sm-6">
+        Product Quantity: {{prod.quantity}}
+      </div>
+    </div>
+    <div class = "row content">
+      <div class="col-sm-6" >
+          <h4>Product Description</h4>
+          <br>
+        <div id = "desc{{i}}">
+          {{prod.description}}
+      </div>
+      </div>
+
+      <div class="col-sm-6">
+        <img src = 'http://localhost:4200/assets/{{i+1}}.jpeg' width="280" height="400">
+      </div>
+    </div>
+    <div id = '"divId"{{i}}'>
+      <textarea id = "txt{{i}}" rows="4" cols="50" placeholder="Enter Product Description to Modify"></textarea>
+      <button  id = '{{i}}' type = "button"  (click) = 'edit($event)' >EDIT</button>
+      <button id = '{{i}}' type = "button" (click) =  'delete($event)'>Del</button>
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>

@@ -9,19 +9,23 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-
+<body (onload) = loaded()>
+<div align = "center" style="background-color:lightblue">
+  <h1><b>Poll Response Form</b></h1>
+</div>
 <div class="container-fluid">
   <div class="row content">
-    <div class="col-sm-3">
-      Responses
-      
+    <div class="col-sm-9" style="background-color:lavenderblush">
+      <h3 style="text-align:center">Poll Questions</h3>
+      <form id = "pollform">
+        <app-ques-comp></app-ques-comp>
+      </form>
+      <input (click) = "submission()" type="button" value="Submit">
     </div>
-
-    <div class="col-sm-9">
-      <app-ques-comp></app-ques-comp>
-    </div>
-        
+    <div align = "center" class="col-sm-3" style="background-color:lavender">
+        <h3> Report </h3>
+        <app-report></app-report>
+      </div>
   </div>
 </div>
 

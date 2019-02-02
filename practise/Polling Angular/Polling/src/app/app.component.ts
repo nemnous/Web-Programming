@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Polling';
+  // htmlcode = (<HTMLFormElement>document.getElementById("pollform")).innerHTML;
+  loaded() {
+    
+  }
+  submission() {
+    alert("Mingey");
+    // $( "#pollform" ).load(window.location.href + " #here" );
+    // (<HTMLFormElement>document.getElementById("pollform")).innerHTML = this.htmlcode;
+    (<HTMLFormElement>document.getElementById("pollform")).reset();
+  }
 }

@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { QuesCompComponent } from './ques-comp/ques-comp.component';
-import { ReportComponent } from './report/report.component';
+import { FormblockComponent } from './formblock/formblock.component';
+import { CommentsCompComponent } from './comments-comp/comments-comp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuesCompComponent,
-    ReportComponent
+    FormblockComponent,
+    CommentsCompComponent
   ],
   imports: [
     BrowserModule,

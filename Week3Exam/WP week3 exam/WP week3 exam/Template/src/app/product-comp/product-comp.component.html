@@ -19,18 +19,17 @@
       </div>
 
       <div class="col-sm-6">
-        Product Quantity: {{prod.quantity}}
+        Product Quantity:{{prod.quantity}}
       </div>
     </div>
     <div class = "row content">
       <div class="col-sm-6" >
-          <h4>Product Description</h4>
+          <h4><b>Product Description</b></h4>
           <br>
         <div id = "desc{{i}}">
           {{prod.description}}
       </div>
       </div>
-
       <div class="col-sm-6">
         <img src = 'http://localhost:4200/assets/{{i+1}}.jpeg' width="280" height="400">
       </div>
@@ -39,12 +38,10 @@
       <textarea id = "name{{i}}" rows="1" cols="50" placeholder="Product Name"></textarea><br>
       <textarea id = "quantity{{i}}" rows="1" cols="50" placeholder="Product Quantity"></textarea><br>
       <textarea id = "txt{{i}}" rows="4" cols="50" placeholder="Enter Product Description to Modify"></textarea>
-      <button  id = '{{i}}' type = "button"  (click) = 'edit($event)' >EDIT</button>
-      <button id = '{{i}}' type = "button" (click) =  'delete($event)'>Del</button>
+      <button class = "button" id = '{{i}}' type = "button"  (click) = 'edit($event)' >EDIT</button>
+      <button class = "button" id = '{{i}}' type = "button" (click) =  'delete($event)'>Del</button>
     </div>
 </div>
 </div>
-
-
 </body>
 </html>

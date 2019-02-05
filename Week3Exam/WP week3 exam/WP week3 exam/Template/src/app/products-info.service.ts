@@ -8,7 +8,7 @@ import catalog from '../assets/catalog.json';
 })
 export class ProductsInfoService {
   
-  productArr : productCls[] = catalog['productsJson'];
+  productArr : productCls[]  = catalog['productsJson'];
 
   constructor() {
     // console.log(this.productArr)

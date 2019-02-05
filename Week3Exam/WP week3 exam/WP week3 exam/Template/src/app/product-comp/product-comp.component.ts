@@ -17,8 +17,9 @@ export class ProductCompComponent implements OnInit {
   text : string;
   name: string;
   quantity : string;
-  edit(event : MouseEvent) {
-    this.buttId = event.path[0].id;
+  edit($event : any) {
+    console.log($event);
+    this.buttId = $event.path[0].id;
     this.name = (<HTMLTextAreaElement>document.getElementById("name"+this.buttId)).value;
     this.quantity = (<HTMLTextAreaElement>document.getElementById("quantity"+this.buttId)).value;
     this.text = (<HTMLTextAreaElement>document.getElementById("txt"+this.buttId)).value;
@@ -30,8 +31,8 @@ export class ProductCompComponent implements OnInit {
     this.ProductsServiceObj.productArr[this.buttId].description = this.text;    
     console.log(this.text);
   }
-  delete(event : MouseEvent) {
-    this.buttId = event.path[0].id;
+  delete($event : any) {
+    this.buttId = $event.path[0].id;
     this.ProductsServiceObj.productArr.splice(this.buttId, 1);
     alert("Product Removed");
     console.log(this.ProductsServiceObj.productArr);

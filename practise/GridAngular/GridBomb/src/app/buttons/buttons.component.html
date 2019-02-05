@@ -1,7 +1,0 @@
-<div id = "name"></div>
-<div *ngFor = "let x of nums;" >
-  <div *ngFor = "let y of nums;" style="display: inline-block;">
-    <button class = "button" [id] ="x+''+y"  mat-button value = false (click) ="clicked(x+''+y)">{{x*3+y -3}}</button>
-  </div>
-  <br>
-</div>

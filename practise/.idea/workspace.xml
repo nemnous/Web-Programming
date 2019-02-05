@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab96e9d1-df56-484d-90c5-c8881265e2aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../M3/Assignment 2/assignment1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3Exam/WP week3 exam/WP week3 exam/Template/src/app/product-comp/product-comp.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3Exam/WP week3 exam/WP week3 exam/Template/src/app/product-comp/product-comp.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3Exam/WP week3 exam/WP week3 exam/Template/src/app/products-info.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Week3Exam/WP week3 exam/WP week3 exam/Template/src/app/products-info.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARTEMPLATE/Template/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/comment-serv.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/comment-serv.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/commentList.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/comments-comp/comments-comp.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/comments-comp/comments-comp.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/comments-comp/comments-comp.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/comments-comp/comments-comp.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/formblock/formblock.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/formblock/formblock.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/formblock/formblock.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/app/formblock/formblock.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommentBox Angular/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grid Bomb/gridBomb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grid Bomb/gridBomb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/app/buttons/buttons.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/app/buttons/buttons.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/app/buttons/buttons.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/app/buttons/buttons.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GridAngular/GridBomb/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/ques-comp/ques-comp.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/ques-comp/ques-comp.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/ques-comp/ques-comp.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/ques-comp/ques-comp.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/quesArr.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/questions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/report/report.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/report/report.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/report/report.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/app/report/report.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polling Angular/Polling/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuizJson.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMore/readmore.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMore/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/json/movies.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nani.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz/css/_bfa875d182c5d3c11e9a44e72b1e0f49_Lecture11.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz/css/emoji.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz/img/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz/img/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz/js/script.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/dist/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab96e9d1-df56-484d-90c5-c8881265e2aa" name="Default Changelist" comment="" />
+      <created>1549306827464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549306827464</updated>
+      <workItem from="1549306832140" duration="52000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="52000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24938676" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

@@ -2,76 +2,68 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-  font-size: 17px;
-}
-
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
-
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
-</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  
-  <div class="topnav">
+  <div class="container-fluid">
+    <div class="row content; topnav" style="opacity:0.8">
+      <div class="col-sm-1" >
+        <!-- Hola Hola -->
         <nav>
-          <a routerLink="/login">Login</a>
+          <a routerLink = "/Home">Home</a>
         </nav>
-        <router-outlet></router-outlet>
-
-        <nav>
-            <a routerLink="/SignUp">SignUp</a>
+      </div>
+      <div class="col-sm-9">   
+      </div>
+      <div class="col-sm-1">
+          <nav>
+            <a routerLink="/login">Login</a>
           </nav>
-        <router-outlet></router-outlet> 
-
+        </div>
+      <div class="col-sm-1">
+        <nav>
+          <a routerLink="/SignUp">SignUp</a>
+        </nav>
+      </div>
+      
+    </div>
+  
+    <div class="row" id = "nani">
+      <div class="col-sm-4">
+        <br>
+        <img src="../assets/Logo.png" alt="Logo" height="80%" width="100%">
+      </div>
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-6" align = "right">
+        <router-outlet></router-outlet>
+        <!-- <router-outlet></router-outlet> -->
+      </div>
+    </div>
   </div>
+<!-- 
+  <div style="float:left;">
+      <img src="../assets/Logo.png" alt="Logo" height="400" width="700">
+  </div>
+  <div>
+    <router-outlet></router-outlet>
+    <router-outlet></router-outlet> 
+  </div> -->
     <!-- <div class = "content">
       <nav>
         <a routerLink="/login">Login</a>
       </nav>
       <router-outlet></router-outlet> 
     </div> -->
-  <!-- <div>
-    <video autoplay loop id="myVideo">
+  <div  class="gg"> 
+    <video autoplay loop id="myVideo" >
       <source src="../assets/HomeVideo.mp4" type="video/mp4">
       Your browser does not support HTML5 video.
     </video>
-  </div> -->
+  </div>
+  <!-- <iframe  -->
 
 </body>
 </html>

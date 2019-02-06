@@ -1,5 +1,17 @@
 body {font-family: Arial, Helvetica, sans-serif;}
-form {border: 3px solid #f1f1f1;}
+form {
+    /* opacity: 100%; */
+    /* border: 3px solid #f1f1f1; */
+    text-align: left;
+    font-size: 100%;
+    color: rgb(197, 140, 70);
+}
+h2 {
+    color: bisque;
+    font-size: 500%;
+    text-align: center;
+    background-color: black
+}
 
 input[type=text], input[type=password] {
   width: 100%;
@@ -10,9 +22,18 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
+#Loginsubmit {
+    width:50%;
+}
+
+#cancelDiv {
+    width:100%;
+}
+
 button {
-  background-color: darkslategray;
+  background-color: black;
   color: white;
+  font-size: 120%;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -41,6 +62,7 @@ img.avatar {
 }
 
 .container {
+    width: 100%;
   padding: 16px;
 }
 
